@@ -1,12 +1,8 @@
 package com.pluralsight.dealership.models;
 
-import com.pluralsight.DataManager;
 import org.apache.commons.dbcp2.BasicDataSource;
 
-import javax.sql.DataSource;
-import javax.sql.DataSource;
 import java.io.IOException;
-import java.sql.SQLOutput;
 import java.time.LocalDate;
 import java.util.*;
 
@@ -132,8 +128,7 @@ public class UserInterface {
         System.out.println("Enter the price ");
         double price = keyboard.nextDouble();
         keyboard.nextLine();
-        //DealershipFileManager fileManager = new DealershipFileManager();
-        //  fileManager.saveDealership(vin,year,make,model,type,color,milage,price);
+
         System.out.println("Vehicle added!");
         display();
     }
